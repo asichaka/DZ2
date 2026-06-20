@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fcf8f2;
+}
+
+.container {
+    max-width: 500px;
+    background: #fffbf5;
+    padding: 20px;
+    border: 1px solid #e0dcd5;
+}
+
+.instructions {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0dcd5;
+    margin: 15px 0;
+}
+
+#text-view, #text-edit {
+    font-size: 16px;
+    line-height: 1.4;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#text-view {
+    white-space: pre-wrap;
+    min-height: 150px;
+}
+
+#text-edit {
+    height: 180px;
+    padding: 5px;
+    border: 1px solid #4a90e2;
+    outline: none;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.hidden {
+    display: none !important;
+}

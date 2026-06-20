@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.tree, .tree ul {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.tree > li {
+    list-style-type: disc;
+}
+
+.tree ul > li {
+    list-style-type: circle;
+}
+
+.tree ul ul > li {
+    list-style-type: square;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.folder {
+    cursor: pointer;
+    user-select: none;
+}
+
+.folder:hover, .tree li:not(:has(ul)):hover {
+    font-weight: bold;
+}
+
+.closed {
+    display: none;
+}
+

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #fcf8f2;
+}
+
+#resizable-box {
+    position: relative;
+    width: 600px;
+    height: 150px;
+    min-width: 200px;
+    min-height: 80px;
+    border: 2px solid #999;
+    background-color: #fffbf5;
+    padding: 30px;
+    font-size: 28px;
+    line-height: 1.4;
+    color: #222;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#resize-handle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    cursor: nwse-resize;
+    background: linear-gradient(135deg, transparent 50%, #888 50%);
+}
+
